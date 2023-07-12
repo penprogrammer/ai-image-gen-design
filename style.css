@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #0e0d0e;
+}
+
+button {
+    cursor: pointer;
+}
+
+.parent {
+    width: 100%;
+    height: 170vh;
+    background-image: url('bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: 100%;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    width: 250px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li {
+    margin: 0px 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #514074;
+    border: 2px solid #936caf;
+}
+
+.text {
+    width: 45vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 55px;
+}
+
+.lists {
+    width: 55vw;
+}
+
+.container-1 {
+    padding-top: 100px !important;
+    padding: 50px 100px;
+}
+
+.text-btn {
+    width: 220px;
+    background-color: #161229;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    width: 30vw;
+    font-weight: 100;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.gen-btn {
+    width: 200px;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #a372bf, #7437b3);
+    box-shadow: 5px -5px 45px #b13ff4;
+    border: 1px solid #a372bf;
+}
+
+.box-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.inner-box {
+    width: 25vw;
+    border-radius: 20px;
+    background-color: #1f2231;
+    overflow: hidden;
+}
+
+.inner-text {
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    margin-top: -40px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.121);
+}
+
+.inner-text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.inner-text h5 {
+    margin-bottom: 10px;
+}
+
+.inner-text p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.inner-text button {
+    padding: 10px 35px;
+    margin-top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center button {
+    background: linear-gradient(to bottom, #2e335d, #1a214439, #282f4c);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.container-2 {
+    padding: 20px 100px;
+    display: flex;
+    gap: 100px;
+}
